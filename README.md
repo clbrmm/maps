@@ -94,6 +94,7 @@ content: Markdown files containing content for different sections of your websit
 
 This project offers a variety of powerful features for integrating maps into websites using Next.js. Here are some notable highlights:
 
+```
    ### 2.1. Intuitive Integration
 
    Practical implementation begins with a seamless integration of Leaflet, ensuring an intuitive experience for users.
@@ -121,6 +122,7 @@ This project offers a variety of powerful features for integrating maps into web
    ### 3.3. Facilitated Sharing
 
    Sharing features are integrated, allowing users to share specific locations, promoting organic dissemination.
+```
 
 Each feature is designed to enhance map usability and interactivity, providing an exceptional user experience.
 

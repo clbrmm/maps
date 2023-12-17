@@ -135,13 +135,13 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados:
 1. Faça um clone deste repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/clbrmm/maps.git
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd nome-do-repositorio
+   cd maps
    ```
 
 3. Instale as dependências:

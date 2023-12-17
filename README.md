@@ -26,7 +26,6 @@ This repository hosts a Next.js project focused on integrating interactive maps 
 ## Project Structure
 
 ```
-
 /project-root
 │
 ├── pages
@@ -36,14 +35,15 @@ This repository hosts a Next.js project focused on integrating interactive maps 
 │   └── ...
 │
 ├── components
-│   ├── Map.js
-│   ├── Marker.js
-│   ├── InfoBox.js
+│   ├── Map
+│   │   ├── Map.js
+│   │   ├── Marker.js
+│   │   └── InfoBox.js
 │   └── ...
 │
 ├── styles
 │   ├── global.css
-│   ├── mapStyles.module.css
+│   ├── map.module.css
 │   └── ...
 │
 ├── public
@@ -74,12 +74,12 @@ This repository hosts a Next.js project focused on integrating interactive maps 
 
 Explanation:
 
-    pages: Contains Next.js pages for different sections of your website.
-    components: Reusable React components for the map, markers, info boxes, etc.
-    styles: CSS files for styling, including global styles and specific styles for the map.
-    public: Static assets such as images used in the project.
-    utils: Utility functions for Leaflet integration, customization, responsiveness, etc.
-    content: Markdown files containing content for different sections of your website.
+pages: Contains Next.js pages for different sections of your website.
+components: Reusable React components for the map, markers, info boxes, etc.
+styles: CSS files for styling, including global styles and specific styles for the map.
+public: Static assets such as images used in the project.
+utils: Utility functions for Leaflet integration, customization, responsiveness, etc.
+content: Markdown files containing content for different sections of your website.
 
 
 ## 02. Features

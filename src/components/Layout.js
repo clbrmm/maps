@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import styles from './Layout.module.css'; // Importa os estilos específicos do layout
+import styles from 'src/styles/Layout.module.css'; // Importa os estilos específicos do layout
 
 const Layout = ({ children }) => {
   return (

@@ -28,49 +28,54 @@ This repository hosts a Next.js project focused on integrating interactive maps 
 ```
 /project-root
 │
-├── pages
-│   ├── index.js
-│   ├── about.js
-│   ├── contact.js
-│   └── ...
-│
-├── components
-│   ├── Map
-│   │   ├── Map.js
-│   │   ├── Marker.js
-│   │   └── InfoBox.js
-|   |   └── index.js
-│   └── Layout.js
-│   └── ...
-│
-├── styles
-│   ├── global.css
-│   ├── map.module.css
-│   └── Layout.module.css
-│   └── ...
-│
+├── src
+│   ├── pages
+│   │   ├── index.js
+│   │   ├── about.js
+│   │   ├── contact.js
+│   │   └── ...
+│   │   
+│   ├── components
+│   │   ├── Map
+│   │   │   ├── Map.js
+│   │   │   ├── Marker.js
+│   │   │   └── InfoBox.js
+│   │   │   └── index.js
+│   │   │   └── ...
+│   │   └── Layout.js
+│   │   └── ...
+│   │
+│   ├── styles
+│   │   ├── global.css
+│   │   ├── map.module.css
+│   │   └── Layout.module.css
+│   │   └── ...
+│   │
+│   │
+│   ├── utils
+│   │   ├── leafletIntegration.js
+│   │   ├── customization.js
+│   │   ├── responsiveness.js
+│   │   └── ...
+│   │
+│   ├── content
+│   │   ├── sections
+│   │   │   ├── integration.md
+│   │   │   ├── customization.md
+│   │   │   ├── navigation.md
+│   │   │   └── ...
+│   │   └── ...
 ├── public
 │   ├── images
 │   │   ├── marker-icon.png
 │   │   └── ...
+│   └── robots.txt
+│   └── manifest.json
+│   └── favicon.png
 │   └── ...
-│
-├── utils
-│   ├── leafletIntegration.js
-│   ├── customization.js
-│   ├── responsiveness.js
-│   └── ...
-│
-├── content
-│   ├── sections
-│   │   ├── integration.md
-│   │   ├── customization.md
-│   │   ├── navigation.md
-│   │   └── ...
-│   └── ...
-│
 ├── README.md
 ├── .gitignore
+└── package-lock.json
 └── ...
 
 ```
@@ -85,106 +90,105 @@ utils: Utility functions for Leaflet integration, customization, responsiveness,
 content: Markdown files containing content for different sections of your website.
 
 
-## 02. Features
+# 02. Features
 
-Este projeto oferece uma variedade de recursos poderosos para a integração de mapas em websites usando Next.js. Abaixo estão alguns destaques notáveis:
+This project offers a variety of powerful features for integrating maps into websites using Next.js. Here are some notable highlights:
 
-### 2.1. Integração Intuitiva
+   ### 2.1. Intuitive Integration
 
-A execução prática começa com uma integração suave do Leaflet, garantindo uma experiência intuitiva para os usuários.
+   Practical implementation begins with a seamless integration of Leaflet, ensuring an intuitive experience for users.
 
-### 2.2. Personalização e Estilo
+   ### 2.2. Customization and Style
 
-Implementamos personalizações visuais e estilos que se alinham à identidade da marca do cliente, proporcionando uma integração harmoniosa ao design do site.
+   We've implemented visual customizations and styles that align with the client's brand identity, providing a harmonious integration with the website design.
 
-### 2.3. Marcação e Informações Contextuais
+   ### 2.3. Marking and Contextual Information
 
-Marcadores e informações contextuais são estrategicamente adicionados, fornecendo detalhes relevantes e aprimorando a utilidade do mapa.
+   Markers and contextual information are strategically added, providing relevant details and enhancing the map's utility.
 
-### 2.4. Responsividade e Desempenho
+   ### 2.4. Responsiveness and Performance
 
-A execução prática inclui otimizações para garantir que o mapa seja responsivo em diferentes dispositivos, mantendo um desempenho excepcional.
+   Practical execution includes optimizations to ensure the map is responsive on different devices while maintaining exceptional performance.
 
-### 3.1. Navegação Intuitiva
+   ### 3.1. Intuitive Navigation
 
-A execução prática resulta em uma navegação no mapa mais intuitiva, permitindo que os usuários encontrem facilmente informações cruciais.
+   Practical implementation results in more intuitive map navigation, allowing users to easily find crucial information.
 
-### 3.2. Maior Tempo de Permanência
+   ### 3.2. Increased Dwell Time
 
-Mapas bem implementados contribuem para um maior tempo de permanência no site, indicando um engajamento mais profundo.
+   Well-implemented maps contribute to increased dwell time on the site, indicating deeper engagement.
 
-### 3.3. Compartilhamento Facilitado
+   ### 3.3. Facilitated Sharing
 
-Funcionalidades de compartilhamento são integradas, permitindo que os usuários compartilhem locais específicos, promovendo a divulgação orgânica.
+   Sharing features are integrated, allowing users to share specific locations, promoting organic dissemination.
 
-Cada recurso é projetado para melhorar a usabilidade e a interatividade do mapa, proporcionando uma experiência de usuário excepcional.
+Each feature is designed to enhance map usability and interactivity, providing an exceptional user experience.
 
-Para mais detalhes sobre cada recurso, consulte a seção correspondente no [README.md](./README.md).
+For more details on each feature, refer to the corresponding section in the [README.md](./README.md).
 
 
-## Getting Started
+# Getting Started
 
-Siga estas instruções para configurar e executar o projeto localmente em seu ambiente de desenvolvimento.
+Follow these instructions to set up and run the project locally in your development environment.
 
-### Pré-requisitos
+### Prerequisites
 
-Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados:
+Before you begin, ensure you have the following prerequisites installed:
 
 - [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-### Instalação
+### Installation
 
-1. Faça um clone deste repositório:
+1. Clone this repository:
 
    ```bash
    git clone https://github.com/clbrmm/maps.git
    ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
 
    ```bash
    cd maps
    ```
 
-3. Instale as dependências:
+3. Install dependencies:
 
    ```bash
    npm install
-   # ou
+   # or
    yarn install
    ```
 
-### Executando o Projeto
+### Running the Project
 
-Inicie o servidor de desenvolvimento:
+Start the development server:
 
 ```bash
 npm start
-# ou
+# or
 yarn start
 ```
 
-Abra o navegador e acesse [http://localhost:3000](http://localhost:3000) para visualizar o projeto.
+Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the project.
 
 ## Usage
 
-Forneça exemplos de como utilizar as principais funcionalidades do projeto. Inclua comandos, trechos de código ou capturas de tela para uma compreensão rápida.
+Provide examples of how to use the main features of the project. Include commands, code snippets, or screenshots for quick understanding.
 
 ```bash
-# Exemplo de comando para usar uma funcionalidade específica
+# Example command to use a specific feature
 npm run feature
-# ou
+# or
 yarn feature
 ```
 
 ## Contributing
 
-Se deseja contribuir para este projeto, siga as instruções no [Guia de Contribuição](./CONTRIBUTING.md). Agradecemos suas contribuições!
+If you wish to contribute to this project, follow the instructions in the [Contribution Guide](./CONTRIBUTING.md). We appreciate your contributions!
 
 ## License
 
-Este projeto está licenciado sob a [Licença MIT](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE).
 
-
-Essa seção fornece instruções detalhadas sobre como começar a usar o projeto, incluindo pré-requisitos, instalação, execução e uso. Além disso, destaca a seção de contribuições e a licença do projeto. Certifique-se de adaptar os comandos e informações conforme necessário para o seu projeto específico.
+This section provides detailed instructions on how to get started with the project, including prerequisites, installation, project execution, and usage. Additionally, it highlights the contributions section and the project's license. Make sure to tailor the commands and information as needed for your specific project.

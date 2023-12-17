@@ -1,4 +1,4 @@
-// leafletIntegration.js
+// src/utils/leafletIntegration.js
 
 import L from 'leaflet';
 

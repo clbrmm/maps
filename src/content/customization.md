@@ -6,17 +6,17 @@ The Next.js Map project allows for extensive customization to tailor the maps to
 
 ### Map Styles
 
-The map styles are defined in `styles/map.module.css`. You can modify this file to change the appearance of the map, including background colors, marker styles, and other visual elements.
+The map styles are defined in `src/styles/map.module.css`. You can modify this file to change the appearance of the map, including background colors, marker styles, and other visual elements.
 
 ### Layout Styles
 
-For broader layout customization, check the `styles/Layout.module.css` file. This includes styles for headers, navigation, main content, and footer. Adjust these styles to ensure a cohesive design across your entire application.
+For broader layout customization, check the `src/styles/Layout.module.css` file. This includes styles for headers, navigation, main content, and footer. Adjust these styles to ensure a cohesive design across your entire application.
 
 ## Components
 
 ### Map Components
 
-Inside the `components/Map` directory, you'll find three main components:
+Inside the `src/components/Map` directory, you'll find three main components:
 
 1. **Map.js:** This component handles the overall rendering of the map.
 
@@ -30,7 +30,7 @@ Each of these components can be customized to match your desired look and functi
 
 ### Text Content
 
-Text content, such as headings and paragraphs, can be customized by editing the Markdown files in the `content/sections` directory. Specifically, the `customization.md` file is where you can provide details about map customization.
+Text content, such as headings and paragraphs, can be customized by editing the Markdown files in the `src/content/sections` directory. Specifically, the `customization.md` file is where you can provide details about map customization.
 
 ## Images
 

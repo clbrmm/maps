@@ -39,11 +39,14 @@ This repository hosts a Next.js project focused on integrating interactive maps 
 │   │   ├── Map.js
 │   │   ├── Marker.js
 │   │   └── InfoBox.js
+|   |   └── index.js
+│   └── Layout.js
 │   └── ...
 │
 ├── styles
 │   ├── global.css
 │   ├── map.module.css
+│   └── Layout.module.css
 │   └── ...
 │
 ├── public

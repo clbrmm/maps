@@ -1,0 +1,40 @@
+/* Layout.module.css */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navList li {
+    margin-right: 20px;
+  }
+  
+  .navList a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main {
+    padding: 20px 0;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  

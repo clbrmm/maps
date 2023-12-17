@@ -1,0 +1,29 @@
+/* global.css */
+
+/* Reset de estilos para garantir uma base consistente em todos os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globais para o corpo do documento */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Estilos globais para links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Adicione estilos globais adicionais conforme necessário */
+  

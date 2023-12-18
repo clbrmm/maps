@@ -11,13 +11,6 @@ This repository hosts a Next.js project focused on integrating interactive maps 
 
 1. [Project Structure](#project-structure)
 2. [Features](#features)
-   - [2.1. Integração Intuitiva](#21-integração-intuitiva)
-   - [2.2. Personalização e Estilo](#22-personalização-e-estilo)
-   - [2.3. Marcação e Informações Contextuais](#23-marcação-e-informações-contextuais)
-   - [2.4. Responsividade e Desempenho](#24-responsividade-e-desempenho)
-   - [3.1. Navegação Intuitiva](#31-navegação-intuitiva)
-   - [3.2. Maior Tempo de Permanência](#32-maior-tempo-de-permanência)
-   - [3.3. Compartilhamento Facilitado](#33-compartilhamento-facilitado)
 3. [Getting Started](#getting-started)
 4. [Usage](#usage)
 5. [Contributing](#contributing)
@@ -51,7 +44,6 @@ This repository hosts a Next.js project focused on integrating interactive maps 
 │   │   └── Layout.module.css
 │   │   └── ...
 │   │
-│   │
 │   ├── utils
 │   │   ├── leafletIntegration.js
 │   │   ├── customization.js
@@ -65,14 +57,17 @@ This repository hosts a Next.js project focused on integrating interactive maps 
 │   │   │   ├── navigation.md
 │   │   │   └── ...
 │   │   └── ...
+│   │
 ├── public
 │   ├── images
 │   │   ├── marker-icon.png
 │   │   └── ...
+│   │
 │   └── robots.txt
 │   └── manifest.json
 │   └── favicon.png
 │   └── ...
+│
 ├── README.md
 ├── .gitignore
 └── package-lock.json

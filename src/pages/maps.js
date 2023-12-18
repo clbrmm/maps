@@ -10,57 +10,54 @@ const MapsPage = () => {
       <h2>Interactive Maps Demo</h2>
       <p>Explore the key features of our interactive maps.</p>
 
-
-
-        {/* Feature Section 1: Intuitive Integration */}
-        <section>
-        <h3>2.1. Intuitive Integration:</h3>
+      {/* Feature Section 1: Intuitive Integration */}
+      <section>
+        <h3>2.1. Intuitive Integration</h3>
         <p>The practical execution begins with a smooth integration of Leaflet, ensuring an intuitive experience for users.</p>
 
-        {/* Exemplo de Integração com Leaflet */}
+        {/* Example of Leaflet Integration */}
         <div>
-            <h4>Example:</h4>
-            <p>Below is an interactive map demonstrating the seamless integration of Leaflet:</p>
+          <h4>Example:</h4>
+          <p>Below is an interactive map demonstrating the seamless integration of Leaflet:</p>
 
-            {/* Componente Map que utiliza Leaflet */}
-            <Map />
+          {/* Map Component using Leaflet */}
+          <Map />
         </div>
-        </section>  
+      </section>
 
-    
       {/* Feature Section 2: Customization and Style */}
       <section>
-        <h3>2.2. Customization and Style:</h3>
+        <h3>2.2. Customization and Style</h3>
         <p>We've implemented visual customizations and styles aligned with the client's brand identity, providing a seamless integration into the website design.</p>
       </section>
 
       {/* Feature Section 3: Marking and Contextual Information */}
       <section>
-        <h3>2.3. Marking and Contextual Information:</h3>
+        <h3>2.3. Marking and Contextual Information</h3>
         <p>Markers and contextual information are strategically added, providing relevant details and enhancing the map's utility.</p>
       </section>
 
       {/* Feature Section 4: Responsiveness and Performance */}
       <section>
-        <h3>2.4. Responsiveness and Performance:</h3>
+        <h3>2.4. Responsiveness and Performance</h3>
         <p>The practical execution includes optimizations to ensure the map is responsive on different devices while maintaining exceptional performance.</p>
       </section>
 
       {/* Feature Section 5: Intuitive Navigation */}
       <section>
-        <h3>3.1. Intuitive Navigation:</h3>
+        <h3>3.1. Intuitive Navigation</h3>
         <p>The practical execution results in more intuitive map navigation, allowing users to easily find crucial information.</p>
       </section>
 
       {/* Feature Section 6: Increased Dwell Time */}
       <section>
-        <h3>3.2. Increased Dwell Time:</h3>
+        <h3>3.2. Increased Dwell Time</h3>
         <p>Well-implemented maps contribute to increased dwell time on the site, indicating deeper engagement.</p>
       </section>
 
       {/* Feature Section 7: Easy Sharing */}
       <section>
-        <h3>3.3. Easy Sharing:</h3>
+        <h3>3.3. Easy Sharing</h3>
         <p>Sharing features are integrated, allowing users to share specific locations and promoting organic dissemination.</p>
       </section>
 

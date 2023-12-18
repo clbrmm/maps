@@ -15,16 +15,17 @@ const HomePage = () => {
         </p>
         <p>
           Learn more about us on the{' '}
-          <Link about>
-            <a id="link">about page</a>
+          <Link href="/about">
+            about page
           </Link>{' '}
           or{' '}
           Maps{' '}
-          <Link maps>
-            <a id="link" >maps page</a>
+          <Link href="/maps">
+            maps page, 
+
           </Link>{' '}
-          <Link contact>
-            <a id="link" >contact us</a>
+          <Link href="/contact">
+            contact us
           </Link>{' '}
           if you have any questions.
         </p>

@@ -1,5 +1,5 @@
 // src/utils/leafletIntegration.js
-
+import React, { useEffect } from 'react';
 import L from 'leaflet';
 
 // Função para inicializar o mapa usando a biblioteca Leaflet

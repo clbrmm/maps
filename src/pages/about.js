@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 
 const AboutPage = () => {
   return (
-    <Layout>
+    <Layout>  
       <div>
         <h1>About Us</h1>
         <p>
@@ -14,10 +14,10 @@ const AboutPage = () => {
           maps for websites using Next.js.
         </p>
         <p>
-          Learn more about our <Link href="/contact"><a id="link" > contact information</a></Link>.
+          Learn more about our <Link href='/contact'> contact information</Link>.
         </p>
       </div>
-    </Layout> 
+    </Layout>
   );
 };
 

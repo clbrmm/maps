@@ -12,14 +12,19 @@ const Layout = ({ children }) => {
           <ul className={styles.navList}>
             <li>
               <Link href="/">
-                <a>Home</a>
+                Home
               </Link>
             </li>
             <li>
-              <Link href="/about">
-                <a>About</a>
+              <Link href='/about'>
+                About
               </Link>
             </li>
+            <li>
+              <Link href='/maps'>
+                Maps
+              </Link>
+              </li>
             {/* Adicione mais itens de navegação conforme necessário */}
           </ul>
         </nav>

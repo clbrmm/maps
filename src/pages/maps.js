@@ -25,7 +25,7 @@ const MapsPage = () => {
             {/* Componente Map que utiliza Leaflet */}
             <Map />
         </div>
-        </section>
+        </section>  
 
     
       {/* Feature Section 2: Customization and Style */}

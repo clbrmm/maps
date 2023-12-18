@@ -14,10 +14,10 @@ const AboutPage = () => {
           maps for websites using Next.js.
         </p>
         <p>
-          Learn more about our <Link href="/contact"><a>contact information</a></Link>.
+          Learn more about our <Link href="/contact"><a id="link" > contact information</a></Link>.
         </p>
       </div>
-    </Layout>
+    </Layout> 
   );
 };
 

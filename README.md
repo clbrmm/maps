@@ -188,4 +188,4 @@ If you wish to contribute to this project, follow the instructions in the [Contr
 
 This project is licensed under the [MIT License](./LICENSE).
 
-This section provides detailed instructions on how to get started with the project, including prerequisites, installation, project execution, and usage. Additionally, it highlights the contributions section and the project's license. Make sure to tailor the commands and information as needed for your specific project.
+This section provides detailed instructions on how to get started with the project, including prerequisites, installation, project execution, and usage. Additionally, it highlights the contributions section and the project's license. Make sure to tailor the commands and information as needed for your specific project..
